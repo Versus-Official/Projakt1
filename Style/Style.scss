@@ -49,28 +49,7 @@
         height: 5rem;
         width: 5rem;
         display: flex;
-        align-items: center;
-        input {
-            display: none;
-        }
-
-        ol {
-            z-index: -1;
-            position: absolute;
-            top: -100vh;
-            transition: .5s;
-            display: flex;
-            flex-direction: column;
-            right: -2rem;
-            padding: 20px 10px;
-            list-style: none;
-            width: 100vw;
-        }
-        #user:checked ~{
-            ol{
-                top:100%;
-
-            }
+        align-items: center;       
     }
 
     
