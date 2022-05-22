@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .Headline {
-  border: 2px dashed red;
   height: 2.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -7,11 +12,13 @@
   color: #666666;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .Headline .HeadlineClick {
-  border: 2px dashed blue;
   color: #666666;
   text-decoration: none;
   box-sizing: border-box;
@@ -21,24 +28,27 @@
 .FirstNavi {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .FirstNavi .Category {
   color: #1a1a1a;
-  font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: fantasy;
   text-decoration: none;
-  margin: 1rem;
+  margin-left: 25px;
+  margin: 0.6rem;
+  padding: 0.4rem;
 }
 .FirstNavi .logo {
-  width: 120px;
-  height: 24px;
+  width: 150px;
+  position: static;
+  margin-right: 17rem;
 }
 .FirstNavi .user {
   height: 5rem;
   width: 5rem;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  position: static;
 }/*# sourceMappingURL=Style.css.map */
